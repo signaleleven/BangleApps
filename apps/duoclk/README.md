@@ -1,7 +1,12 @@
 # Duo Clock
 
-A simple clock for Bangle.js 2: a large time and date at the top, and two
-large [Clock Info](https://banglejs.com/apps/?id=clock_info) slots underneath.
+A simple clock for Bangle.js 2: a large time, the date, the outside
+temperature and today's steps at the top, and two large
+[Clock Info](https://banglejs.com/apps/?id=clock_info) slots underneath.
+
+The temperature comes from the forecast your phone sends to the
+[Weather](https://banglejs.com/apps/?id=weather) app. If you don't have it
+installed (or no forecast has arrived yet), only the steps are shown.
 
 The slots are made big so they're easy to hit - for example, keep a
 [Home Assistant](https://banglejs.com/apps/?id=ha) trigger in one and the

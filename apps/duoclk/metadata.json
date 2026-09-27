@@ -1,6 +1,6 @@
 { "id": "duoclk",
   "name": "Duo Clock",
-  "version": "0.01",
+  "version": "0.02",
   "author": "signaleleven",
   "description": "A large, easy to read clock with two big, tappable ClockInfo slots underneath - ideal for a Home Assistant button next to weather or steps",
   "icon": "app.png",
