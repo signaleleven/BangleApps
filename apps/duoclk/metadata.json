@@ -1,0 +1,18 @@
+{ "id": "duoclk",
+  "name": "Duo Clock",
+  "version": "0.01",
+  "author": "signaleleven",
+  "description": "A large, easy to read clock with two big, tappable ClockInfo slots underneath - ideal for a Home Assistant button next to weather or steps",
+  "icon": "app.png",
+  "type": "clock",
+  "tags": "clock,clkinfo",
+  "supports": ["BANGLEJS2"],
+  "allow_emulator": true,
+  "dependencies": { "clock_info": "module" },
+  "screenshots": [{"url":"screenshot.png"}],
+  "readme": "README.md",
+  "storage": [
+    {"name":"duoclk.app.js","url":"app.js"},
+    {"name":"duoclk.img","url":"app-icon.js","evaluate":true}
+  ]
+}
